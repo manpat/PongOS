@@ -1,4 +1,4 @@
-PROJECTNAME=OSTest
+PROJECTNAME=PongOS
 
 $(PROJECTNAME): bin/*.bin
 	cat $? > $(PROJECTNAME).bin
